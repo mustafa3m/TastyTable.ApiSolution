@@ -1,0 +1,67 @@
+# Sluttrapport – TastyTable
+
+**Forfattere av rapporten:**  
+Mustafa Elmi Muse  
+Liibaan Olow  
+Ahmed Ismail Musse  
+Mahamed Hassan Ali
+
+---
+
+## 1. Tittel og sammendrag
+
+**TastyTable – Backend for digital bordreservasjon**
+
+TastyTable er et backend-prosjekt utviklet av fire studenter ved fagskole i backend-programmering. Prosjektet tar utgangspunkt i en klar og tydelig problemstilling: Hvordan kan vi utvikle en moderne, trygg og brukervennlig backend-løsning for håndtering av restaurant- og bordreservasjoner? Vi har brukt relevante teknologier som ASP.NET Core (.NET, C#) og MySQL, og arbeidet er støttet av enhetstester. Denne rapporten beskriver arbeidsmetodikk, tekniske valg, løsninger og vurderinger. Resultatet er et funksjonelt og utvidbart system med flere API-endepunkter, robust feilhåndtering, og testdekning.
+
+## 2. Innledning
+
+TastyTable ble utviklet som en fordypningsoppgave i backend-programmering, og adresserer et konkret behov i restaurantbransjen: digital og effektiv administrasjon av bordreservasjoner. Målet var å bygge en backend som er sikker, robust og lett å videreutvikle. Løsningen er laget for både restauranteiere og gjester, med enkel reservasjon og administrasjon.
+
+## 3. Krav for innlevering
+
+- **Tydelig problemstilling:** Hvordan kan vi utvikle en moderne og sikker backend-løsning for digital bordreservasjon med fokus på enkel administrasjon og fremtidig utvidelse?
+- **Bruk av relevant teknologi:** Prosjektet er bygget med ASP.NET Core (.NET, C#) som backend-rammeverk og MySQL som database.
+- **Rapport:** Denne sluttrapporten er velskrevet og beskrivende, og forklarer fremgangsmåte, løsninger og vurderinger vi har gjort underveis.
+
+## 4. Arbeidsmetodikk og verktøy
+
+Vi har jobbet iterativt, inspirert av Agile/Scrum. Oppgaver ble fordelt i GitHub Issues, og koden er versjonert på GitHub med bruk av feature branches og pull requests. For å sikre kvaliteten har vi gjennomført manuell API-testing via Swagger og utviklet enhetstester (unit tests) som kjøres automatisk. Kommunikasjon og samarbeid har foregått via Teams og Messenger.
+
+## 5. Teknologistakk og implementasjon
+
+- **Språk og rammeverk:** ASP.NET Core (.NET, C#)
+- **Database:** MySQL, med Entity Framework for migrering og vedlikehold
+- **API-design:** RESTful API, dokumentert med Swagger
+- **Autentisering:** JWT-tokens for sikker tilgang
+- **Infrastruktur:** Lokal kjøring under utvikling, klargjort for Docker i fremtiden
+- **Testing:** Vi har utviklet og kjørt enhetstester (unit tests) med .NET sitt innebygde test-rammeverk for å sikre at forretningslogikk og API-endepunkter fungerer riktig. Dette har hjulpet oss å oppdage feil tidlig og økt kvaliteten på løsningen.
+- **Eksempler på funksjonalitet:**
+  - Registrering og innlogging av brukere
+  - CRUD-operasjoner på bord og reservasjoner samt håndtering av ordrer
+  - Henting av menyer og brukerinformasjon via API-integrasjoner
+  - Robust feilhåndtering og retry-strategi for eksterne tjenestekall
+
+## 6. Resultater og vurdering
+
+Vi har levert en backend som dekker behovene for bordreservasjon: registrering, innlogging, opprettelse og administrasjon av bord og reservasjoner, samt ordrebehandling. API-et er strukturert, dokumentert og enkelt å videreutvikle. Utfordringer med autentisering, database-relasjoner og kommunikasjon med andre API-er ble løst med grundig testing og en robust retry-mekanisme. Arkitekturen er monolittisk, men kan på sikt utvides til mikrotjenester. Vi har oppnådd god testdekning, blant annet med tester for OrderService og MenuController. Mulige forbedringer inkluderer bedre logging, flere brukerroller og ytterligere automatisering av tester.
+
+## 7. Konklusjon og videre arbeid
+
+Prosjektet har gitt oss verdifull erfaring med moderne backend-teknologi og samarbeid. Vi har erfart hvor viktig det er med tydelig problemstilling, bruk av relevante verktøy og god dokumentasjon.  
+For videre utvikling anbefaler vi:
+- Implementering av Docker for enklere distribusjon
+- Flere brukerroller (admin, servitør)
+- Bedre logging og overvåking
+- Utvidelse og automatisering av enhetstester (unit tests)
+- CI/CD for automatisert bygg og test
+
+**Lærdom:** Strukturert samarbeid og gode verktøy gir et solid grunnlag for å løse reelle problemer gjennom backend-utvikling.
+
+---
+
+ 
+Mustafa Elmi Muse  
+Liibaan Olow  
+Ahmed Ismail Musse  
+Mahamed Hassan Ali
