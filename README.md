@@ -28,8 +28,8 @@ TastyTable er en backend-løsning for administrasjon av restaurant og bordreserv
 
 1. **Klon repoet:**
    ```
-   git clone https://github.com/mustafa3m/TastyTable.git
-   cd TastyTable
+   git clone https://github.com/mustafa3m/TastyTable.ApiSolution/tree/master
+   cd TastyTable. Api. Solution 
    ```
 
 2. **Installer avhengigheter:**
