@@ -51,6 +51,17 @@ TastyTable er en backend-løsning for administrasjon av restaurant og bordreserv
    dotnet run
    ```
 
+Starte API-er lokalt:
+
+TastyTable API kjører på:
+http://localhost:5000
+http://localhost:5001
+http://localhost:5002
+
+Gateway API kjører på:
+http://localhost:5003
+   
+
 6. **API-dokumentasjon:**  
    Når serveren kjører kan du åpne Swagger UI (typisk på `/swagger`) for å se og teste API-et.
 
